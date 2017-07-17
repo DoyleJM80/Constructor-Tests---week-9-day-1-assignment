@@ -32,8 +32,9 @@
   // /_/ /_/\__,_/_/ /_/ /_/\__,_/_/ /_/____/
 
   // Human Constructor & Prototype
-  function Human (name) {
+  function Human (name, cool) {
     this.name = name;
+    this.cool = cool;
 
     // this.pet = function (dog) {
     //   dog.status = happy;
@@ -49,8 +50,10 @@
   };
 
 
+
+
   // Instances of Human
   // Needed: mason, julia
 
-  let mason = new Human('mason');
-  let julia = new Human('julia');
+  let mason = new Human('mason', false);
+  let julia = new Human('julia', true);
