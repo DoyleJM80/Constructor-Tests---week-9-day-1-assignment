@@ -56,5 +56,5 @@ function expect(target) {
         return false;
       }
     }
-  }
+  };
 }
